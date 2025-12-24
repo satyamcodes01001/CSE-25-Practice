@@ -1,0 +1,39 @@
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      /* Top & Bottom Menu */
+      .menu {
+        background-color: gray;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+      }
+
+      .menu a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+      }
+
+      /* Image Grid */
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        padding: 20px;
+      }
+
+      .gallery img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+
+      /* Bottom Menu Color */
+      .footer {
+        background-color: red;
+      }

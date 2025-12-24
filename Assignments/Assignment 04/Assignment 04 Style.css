@@ -1,0 +1,43 @@
+
+.header{
+    text-align:center;
+    background-color:blue;
+    color:white;
+    padding:10px;
+}
+
+.slider, .slider2{
+    width:100%;
+    overflow:hidden;
+}
+
+.slider{
+    height:250px;
+}
+
+.slider2{
+    height:200px;
+    margin-top:20px;
+}
+
+.slides, .slides2{
+    display:flex;
+    width:300%;
+    gap:20px;                 
+    animation: slide 8s infinite;
+}
+
+.slides img{
+    width:100%;
+    height:250px;
+}
+
+.slides2 img{
+    width:100%;
+    height:200px;
+}
+@keyframes slide{
+    0%{margin-left:0%;}
+    50%{margin-left:-100%;}
+    100%{margin-left:-200%;}
+}
